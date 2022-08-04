@@ -1,0 +1,9 @@
+query SpecifyCountry {
+  country(code: "US") {
+    name
+    native
+    capital
+    currency
+    emoji
+  }
+}
